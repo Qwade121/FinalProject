@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #D3D3;
+}
+ul {
+  margin: 0px;
+  list-style: none;
+  padding: 0px;
+}
+
+#title-box {
+  position: fixed;
+  left: 8%;
+}
+
+#month-box,
+#day-box,
+#year-box {
+  margin: 2px;
+}
+
+#console-box {
+  position: absolute;
+  top: 48px;
+  right: 48px;
+  height: 50px;
+  width: 300px;
+  background-color: #000;
+  color: #55ff55;
+  font-family: monospace;
+  padding: 6px;
+}
+
+#semester-title {
+  height: 100px;
+  width: 500px;
+  font-size: 50px;
+  text-align: center;
+  margin: 10px;
+}
+#thousands-title {
+  font-size: 18px;
+  height: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+}
+
+#tens-title {
+  width: 200px;
+  height: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+}
+
+#ones-title {
+  width: 250px;
+  height: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+}
+
+#example-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+
+#tumbly-box {
+  position: absolute;
+  top: 60px;
+  left: 6%;
+  width: 550px;
+  height: 550px;
+  background-color: #98007f;
+  padding: 12px;
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/*changed to semester */
+.tumbly-semester {
+  display: flex;
+  width: 420px;
+  flex-flow: row wrap;
+  border: solid 1px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0px;
+}
+/*Changed to Semester time */
+.semester-box {
+  height: 50px;
+  width: 100px;
+  background: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.tumbly-years-thousands {
+  list-style: none;
+  display: flex;
+  width: 100px;
+  height: 250px;
+  flex-flow: column;
+  border: solid 1px;
+  float: left;
+}
+.year-thousands-box {
+  height: 50px;
+  width: 50px;
+  background: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+.tumbly-years-tens {
+  list-style: none;
+  display: flex;
+  width: 210px;
+  height: 250px;
+  flex-flow: row wrap;
+  border: solid 1px;
+  float: left;
+}
+.year-tens-box {
+  height: 50px;
+  width: 50px;
+  background: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+.tumbly-years-ones {
+  list-style: none;
+  display: flex;
+  width: 210px;
+  height: 250px;
+  flex-flow: row wrap;
+  border: solid 1px;
+}
+.year-ones-box {
+  height: 50px;
+  width: 50px;
+  background: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.selected {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+#continue {
+  height: 50px;
+  width: 150px;
+  background: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  border: solid 1px;
+}
